@@ -21,7 +21,7 @@ export default function App() {
     <div className="App">
       <Greeting planet="earth">
         <p> this is children props </p>
-        <button> Humans login Here! </button>
+        <button> Humans login! </button>
       </Greeting>
       <div>
         <Greeting planet="mars">
@@ -33,7 +33,7 @@ export default function App() {
         Adding {y} to {x}...{" "}
       </p>
       <h3> Your Total is: {x + y}</h3>
-      <Welcome />
+      <Welcome text="In Welcome" />
       <Hello />
       {/* <WeirdHello/> */}
     </div>
