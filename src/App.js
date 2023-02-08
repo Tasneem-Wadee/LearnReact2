@@ -21,11 +21,13 @@ export default function App() {
     <div className="App">
       <Greeting planet="earth">
         <p> this is children props </p>
+        <button> Humans login! </button>
       </Greeting>
-      <Greeting planet="mars">
-        <button> Aliens!! </button>
-      </Greeting>
-
+      <div>
+        <Greeting planet="mars">
+          <button onClick="warning()"> Aliens login!! </button>
+        </Greeting>
+      </div>
       <h1>Hello {name} </h1>
       <p>
         Adding {y} to {x}...{" "}
