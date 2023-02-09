@@ -5,6 +5,8 @@ import "./styles.css";
 import Greeting from "./components/Greeting";
 import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
+import Message from "./components/Message";
+import Counter from "./components/Counter";
 //import WeirdHello from "./components/Hello"
 
 //names exports?? which are those
@@ -21,13 +23,14 @@ export default function App() {
     <div className="App">
       <Greeting planet="earth">
         <p> this is children props </p>
-        <button> Humans login! </button>
+        <button> Humans login!! </button>
       </Greeting>
       <div>
         <Greeting planet="mars">
           <button onClick="warning()"> Aliens login!! </button>
         </Greeting>
       </div>
+      
       <h1>Hello {name} </h1>
       <p>
         Adding {y} to {x}...{" "}
@@ -36,6 +39,8 @@ export default function App() {
       <Welcome text="In Welcome" />
       <Hello />
       {/* <WeirdHello/> */}
+       <Message />
+       <Counter/>
     </div>
   );
 }
