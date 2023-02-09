@@ -7,6 +7,7 @@ const h2Style = { color: "blue" };
 const Greeting = (props) => {
   //orrrr const {planet} = props
   return (
+    
     <div>
       <h2 style={h2Style}> Hello {planet} </h2>
       {props.children} <br />
