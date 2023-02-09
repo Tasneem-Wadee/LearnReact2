@@ -11,13 +11,13 @@ class Welcome extends Component {
       <div>
         <h4 style={h4Style}> {this.props.text} </h4>
         <h4 style={h4Style}> Are you a Human or Alien? </h4>
-       
+       <h6> made a change here </h6>
         
         <p style={pStyle}>
           Created class component. <br />
           Remember how the import changes and connect like we do functional.{" "}
           <br />
-          ie. with the export{" "}
+          ie. with the export  {" "}
         </p>
       </div>
     );
