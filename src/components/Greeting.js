@@ -4,7 +4,7 @@ import React from "react";
 
 const h2Style = { color: "blue" };
 
-const Greeting = (planet) => {
+const Greeting = (props) => {
   //orrrr const {planet} = props
   return (
     <div>
