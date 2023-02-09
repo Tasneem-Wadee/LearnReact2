@@ -16,5 +16,5 @@ const WeirdHello = () => {
     {id:'Hello', className: 'dummyClass'},
     React.createElement('h1', null, 'without jsx'))
 }*/
-export default Hello;
+export default Hello
 //export default WeirdHello;
