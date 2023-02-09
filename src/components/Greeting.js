@@ -7,6 +7,21 @@ const Greeting = (props) => {
     <div>
       <h2 style={h2Style}> Hello {props.planet} </h2>
       {props.children} <br />
+     {/* 
+      switch(props.planet){
+        if(props.planet== 'earth'){
+          var planet = 'earth';
+        }
+        else{
+          
+        }
+        case :
+        console.log("You live on earth");
+        break;
+        default:
+        console.log("You live on another planet");
+      }
+      */}
       -----------------------------
     </div>
   );
