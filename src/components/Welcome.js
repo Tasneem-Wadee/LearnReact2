@@ -1,3 +1,5 @@
+//class component
+
 import React, { Component } from "react";
 
 const pStyle = { color: "green" };
