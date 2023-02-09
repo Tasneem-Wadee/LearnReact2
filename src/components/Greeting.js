@@ -1,11 +1,15 @@
+//functional component
+
 import React from "react";
 
 const h2Style = { color: "blue" };
 
 const Greeting = (props) => {
+  //orrrr const {planet} = props
   return (
+    
     <div>
-      <h2 style={h2Style}> Hello {props.planet} </h2>
+      <h2 style={h2Style}> Hello {planet} </h2>
       {props.children} <br />
      {/* 
       switch(props.planet){

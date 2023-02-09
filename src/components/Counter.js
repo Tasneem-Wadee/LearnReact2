@@ -14,6 +14,8 @@ class Counter extends Component {
            count: prevState.count + 1
        }))
        console.log(this.state.count)
+       
+       
        {/*
        what does props do
        
