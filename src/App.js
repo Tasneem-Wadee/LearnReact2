@@ -9,6 +9,7 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import MyForm from "./components/MyForm"
+import ClassClick from './components/ClassClick'
 //import WeirdHello from "./components/Hello"
 
 //names exports?? which are those
@@ -32,6 +33,8 @@ export default function App() {
       </div>
       
       <FunctionClick/>
+       
+      <ClassClick/> <br/>
       <MyForm/>
       
       <h1>Hello {name} </h1>

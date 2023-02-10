@@ -6,6 +6,10 @@ function MyForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (name.length == 0){
+        alert("<Please type a valid message>")
+    }
+    else
     alert( ` ${name}`)
   }
 
