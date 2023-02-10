@@ -8,6 +8,7 @@ import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
+import MyForm from "./components/MyForm"
 //import WeirdHello from "./components/Hello"
 
 //names exports?? which are those
@@ -31,6 +32,7 @@ export default function App() {
       </div>
       
       <FunctionClick/>
+      <MyForm/>
       
       <h1>Hello {name} </h1>
       <p>

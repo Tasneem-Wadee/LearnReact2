@@ -6,12 +6,12 @@ function MyForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`The name you entered was: ${name}`)
+    alert( ` ${name}`)
   }
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>Enter your name:
+      <label>Enter your message:
         <input 
           type="text" 
           value={name}
