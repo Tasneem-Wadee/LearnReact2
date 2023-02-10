@@ -7,6 +7,7 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
 //import WeirdHello from "./components/Hello"
 
 //names exports?? which are those
@@ -23,13 +24,13 @@ export default function App() {
     <div className="App">
       <Greeting planet="earth">
         <p> this is children props </p>
-        <button> Humans login!! </button>
       </Greeting>
       <div>
         <Greeting planet="mars">
-          <button onClick="warning()"> Aliens login!! </button>
         </Greeting>
       </div>
+      
+      <FunctionClick/>
       
       <h1>Hello {name} </h1>
       <p>

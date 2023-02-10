@@ -15,10 +15,10 @@ class Counter extends Component {
        }))
        console.log(this.state.count)
        
-       
-       {/*
+       {/* 
+      
        what does props do
-       
+      
        this.setState ({
            count: this.state.count + 1
        },() => {

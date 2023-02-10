@@ -4,13 +4,19 @@ import React from "react";
 
 const h2Style = { color: "blue" };
 
-const Greeting = (props) => {
-  //orrrr const {planet} = props
+const Greeting = props => {
+  const {planet} = props
   return (
-    
+   
     <div>
       <h2 style={h2Style}> Hello {planet} </h2>
-      {props.children} <br />
+     {/*} {props.children} <br />
+     */}
+    
+       <button>{planet} inhabitants!! </button>
+       <br/>
+      
+      
      {/* 
       switch(props.planet){
         if(props.planet== 'earth'){
